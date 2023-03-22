@@ -28,7 +28,7 @@ def grid():
         for y in range(-175, 200, 50):
             up()
             goto(x, y)
-            dot(40, 'white')
+            dot(50, 'white')
 
     update()
 
